@@ -17,7 +17,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Typeface tf1=Typeface.createFromAsset(getAssets(),"champagne.ttf");
+        Typeface tf1=Typeface.createFromAsset(getAssets(),"membra.ttf");
         TextView subtitle1= (TextView) findViewById(R.id.subtitle1);
         Typeface tf2=Typeface.createFromAsset(getAssets(),"membra.ttf");
         TextView heading1=(TextView) findViewById(R.id.heading1);
